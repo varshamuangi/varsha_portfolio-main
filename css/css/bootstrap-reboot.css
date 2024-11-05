@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills Section</title>
+    <style>
+        /*!
+         * Bootstrap Reboot v4.1.0 (https://getbootstrap.com/)
+         * Copyright 2011-2018 The Bootstrap Authors
+         * Copyright 2011-2018 Twitter, Inc.
+         * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+         * Forked from Normalize.css, licensed MIT (https://github.com/necolas/normalize.css/blob/master/LICENSE.md)
+         */
+        *,
+        *::before,
+        *::after {
+          -webkit-box-sizing: border-box;
+          box-sizing: border-box; 
+        }
+
+        html {
+          font-family: sans-serif;
+          line-height: 1.15;
+          -webkit-text-size-adjust: 100%;
+          -ms-text-size-adjust: 100%;
+          -ms-overflow-style: scrollbar;
+          -webkit-tap-highlight-color: transparent; 
+        }
+
+        @-ms-viewport {
+          width: device-width; 
+        }
+
+        body {
+          margin: 0;
+          font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+          font-size: 1rem;
+          font-weight: 400;
+          line-height: 1.5;
+          color: #212529;
+          text-align: left;
+          background-color: #fff; 
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+          margin-top: 0;
+          margin-bottom: 0.5rem; 
+        }
+
+        p {
+          margin-top: 0;
+          margin-bottom: 1rem; 
+        }
+
+        a {
+          color: #007bff;
+          text-decoration: none;
+          background-color: transparent;
+          -webkit-text-decoration-skip: objects; 
+        }
+
+        a:hover {
+          color: #0056b3;
+          text-decoration: underline; 
+        }
+
+        img {
+          vertical-align: middle;
+          border-style: none; 
+        }
+
+        table {
+          border-collapse: collapse; 
+        }
+
+        caption {
+          padding-top: 0.75rem;
+          padding-bottom: 0.75rem;
+          color: #6c757d;
+          text-align: left;
+          caption-side: bottom; 
+        }
+
+        button,
+        input,
+        select,
+        optgroup,
+        textarea {
+          margin: 0;
+          font-family: inherit;
+          font-size: inherit;
+          line-height: inherit; 
+        }
+
+        input[type="radio"],
+        input[type="checkbox"] {
+          -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+          padding: 0; 
+        }
+
+        textarea {
+          overflow: auto;
+          resize: vertical; 
+        }
+
+        [hidden] {
+          display: none !important; 
+        }
+
+        /* Custom CSS for Skills Section */
+        .skills-section {
+            max-width: 500px;
+            margin: 20px auto;
+            font-family: Arial, sans-serif;
+        }
+
+        .skill-category {
+            margin-bottom: 15px;
+        }
+
+        .skill-category h3 {
+            font-size: 1.2em;
+            color: #3b1776;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+        }
+
+        .icon {
+            margin-right: 5px;
+        }
+
+        .skill-category p {
+            font-size: 0.9em;
+            margin: 3px 0;
+            line-height: 1.4;
+        }
+    </style>
+</head>
+<body>
+
+<div class="skills-section">
+    <div class="skill-category">
+        <h3><span class="icon">💻</span> Programming Languages</h3>
+        <p>Java, C#, Python, JavaScript, TypeScript, PHP, HTML, CSS</p>
+    </div>
+
+    <div class="skill-category">
+        <h3><span class="icon">💻</span> Frameworks</h3>
+        <p>Spring MVC, Spring Boot, Spring Boot REST API, Hibernate/JPA, Azure DevOps, JUnit, Flask, ASP.NET Core Web API, Bootstrap</p>
+    </div>
+
+    <div class="skill-category">
+        <h3><span class="icon">💻</span> Cloud Platforms</h3>
+        <p>Microsoft Azure, AWS (Amazon Web Services)</p>
+    </div>
+
+    <div class="skill-category">
+        <h3><span class="icon">💾</span> Databases</h3>
+        <p>SQL Server, Azure SQL Database, NoSQL databases, MongoDB</p>
+    </div>
+
+    <div class="skill-category">
+        <h3><span class="icon">📂</span> Version Control</h3>
+        <p>Git, GitHub</p>
+    </div>
+
+    <div class="skill-category">
+        <h3><span class="icon">📚</span> Libraries</h3>
+        <p>React JS, Angular, D3 JS, Dropzone JS</p>
+    </div>
+</div>
+
+</body>
+</html>
