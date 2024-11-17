@@ -1,813 +1,323 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Varsha's Portfolio</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
-    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-
-    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
-    <link rel="stylesheet" href="css/animate.css">
-    
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="css/magnific-popup.css">
-
-    <link rel="stylesheet" href="css/aos.css">
-
-    <link rel="stylesheet" href="css/ionicons.min.css">
-    
-    <link rel="stylesheet" href="css/flaticon.css">
-    <link rel="stylesheet" href="css/icomoon.css">
-    <link rel="stylesheet" href="css/style.css">
-
-
-
-<style>
-
-/*======================================
-//--//-->   ABOUT
-======================================*/
-
-.about-mf .box-shadow-full {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
-}
-
-.about-mf .about-img {
-  margin-bottom: 2rem;
-}
-
-.about-mf .about-img img {
-  margin-left: 10px;
-}
-
-
-.skill-mf .progress {
-  /* background-color: #cde1f8; */
-  margin: .5rem 0 1.2rem 0;
-  border-radius: 0;
-  height: .7rem;
-}
-
-.skill-mf .progress .progress-bar {
-  height: .7rem;
-  background-color: #ffbd39;
-}
-
-
-/* Animation styles */
-#typing-animation {
-  position: relative;
-  font-size: 30px;
-  font-weight: bold;
-  color: rgb(255, 255, 255);
-  overflow: hidden;
-  white-space: nowrap;
-  animation: typing 3s steps(20, end) infinite;
-}
-
-#typing-animation:before {
-  content: "";
-  /* position: absolute; */
-  top: 0;
-  left: 0;
-  width: 0;
-  height: 100%;
-  background-color: #ccc;
-  animation: typing-cursor 0.5s ease-in-out infinite;
-}
-
-@keyframes typing {
-  from {
-    width: 0;
-  }
-  to {
-    width: 100%;
-  }
-}
-
-@keyframes typing-cursor {
-  from {
-    width: 5px;
-  }
-  to {
-    width: 0;
-  }
-}
-
-
-/* project image zoom effect */
-
-.zoom-effect {
-  overflow: hidden;
-  transition: transform 0.3s ease-out;
-}
-
-.zoom-effect:hover {
-  transform: scale(1.1);
-}
-
-
-</style>
-
-
-  </head>
-  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
-	  
-	  
-    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
-		<div class="container">
-			<a class="navbar-brand" href="index.html"><h3><i>Varsha Chandrahasareddy Mulangi<i></h3></a>
-			<button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="oi oi-menu"></span> Menu
-			</button>
-	
-			<div class="collapse navbar-collapse" id="ftco-nav">
-				<ul class="navbar-nav nav ml-auto">
-					<li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
-					<li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
-					<li class="nav-item"><a href="#resume-section" class="nav-link"><span>Resume</span></a></li>
-					<li class="nav-item"><a href="#project-section" class="nav-link"><span>Projects</span></a></li>
-					<li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
-				</ul>
-			</div>
-		</div>
-	</nav>
-	
-	<section id="home-section" class="hero">
-		<div class="home-slider owl-carousel">
-			<div class="slider-item">
-				<div class="container">
-					<div class="row d-flex no-gutters slider-text align-items-center justify-content-center" data-scrollax-parent="true">
-	
-						<!-- Image and Text Section Combined -->
-						<div class="col-12 position-relative" style="overflow: hidden;">
-							<div class="img"
-								style="background-image: url('images/1.jpeg');
-									width: 100%;
-									height: 500px; /* Adjust as needed */
-									background-size: cover;
-									background-position: center;
-									position: relative;
-									filter: grayscale(80%) brightness(70%); /* Make the image dull */
-									opacity: 0.9;">  <!-- Slightly transparent for a muted effect -->
-									
-								<!-- Overlay to Darken Image for Better Text Visibility -->
-								<div class="overlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.4);"></div>
-									
-								<!-- Text Section on Top of Image -->
-								<div class="text-container text-white d-flex align-items-center justify-content-center" 
-     style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center; z-index: 2;">
-    
-    <div class="text">
-        <!-- Greeting Subheading -->
-        <span class="subheading" style="font-size: 1.5em; color: #FFFFFF; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">Hello!</span>
-        
-        <!-- Main Heading -->
-        <h1 class="mb-4 mt-3" style="font-size: 3em; font-weight: bold; color: #FFFFFF; text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7);">
-            I'm <span>Varsha Chandrahasareddy Mulangi</span>
-        </h1>
-
-        <!-- Animated Typing Text -->
-        <span id="typing-animation" class="typing-animation" style="font-size: 1.5em; color: #FFFFFF; text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);"></span>
-
-        <script>
-            // Typing animation logic
-            const typingAnimationElement = document.getElementById('typing-animation');
-            const typingTexts = [
-                'From Oregon State University',
-                'Major in Computer Science',
-                'Interested in Software Development Roles'
-            ];
-            let typingIndex = 0;
-
-            function playTypingAnimation() {
-                let text = typingTexts[typingIndex];
-                typingAnimationElement.textContent = '';
-                
-                // Adding typing animation character by character
-                for (let i = 0; i < text.length; i++) {
-                    setTimeout(() => {
-                        typingAnimationElement.textContent += text[i];
-                    }, i * 100);
-                }
-
-                // Wait before clearing the text and moving to the next item
-                setTimeout(() => {
-                    typingAnimationElement.textContent = '';
-                    typingIndex = (typingIndex + 1) % typingTexts.length;
-                    playTypingAnimation();
-                }, text.length * 100 + 1500);
-            }
-
-            // Start the typing animation
-            playTypingAnimation();
-        </script>
-
-        <br><br>
-        <!-- Subtitle and Call to Action -->
-        <h2 style="font-size: 2em; font-weight: bold; color: #FFFFFF; text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);">Full Stack Developer</h2>
-        <p>
-            <a href="mailto:varshacm21@gmail.com" class="btn btn-primary py-3 px-4" style="font-size: 1.2em; font-weight: bold;">E-mail</a>
-            <a href="https://www.linkedin.com/in/varshamulangi/" class="btn btn-white btn-outline-white py-3 px-4" style="font-size: 1.2em; font-weight: bold; color: #FFFFFF;">LinkedIn</a>
-        </p>
-    </div>
-</div>
-
-								</div>
-							</div>
-						</div>
-	
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	
-	
-	
-
-
-    <section class="ftco-about img ftco-section ftco-no-pb" id="about-section">
-    	<div class="container">
-			<div class="row">
-				<div class="row d-flex align-items-stretch">
-				<!-- <div class="row d-flex"> -->
-					<div class="col-md-6 col-lg-5 d-flex">
-						<div class="img-about img d-flex align-items-stretch">
-							<div class="overlay">
-								<div class="row">
-									<div class="col-sm-6 col-md-5">
-									  <div class="about-img">
-										<img src="images/Varsha_1.png" class="img-fluid rounded b-shadow-a" alt="">
-									  </div>
-									</div>
-									<!-- Details next to profile image -->
-									<div class="col-sm-6 col-md-7">
-									  <div class="about-info">
-										<p><span class="title-s">Name: </span> <span>Varsha</span></p>
-										<p><span class="title-s">Job Role: </span> <span>Software Developer</span></p>
-										<p><span class="title-s">Experience: </span> <span>2 Years</span></p>
-										<p><span class="title-s">Address: </span> <span>Unites States</span></p>
-									  </div>
-									</div>
-								  </div>
-
-								
-							</div>
-						</div>
-					</div>
-					
-					<div class="col-md-6 col-lg-7 pl-lg-5 pb-5">
-						<div class="row justify-content-start pb-3">
-							<div class="col-md-12 heading-section ftco-animate">
-								
-								<h1 class="big">About</h1>
-								<h2 class="mb-4">About Me</h2>
-								
-								<p><i>"We're here to put a dent in the Universe!!" - Steve Jobs</i></p>
-								<p>With over 2 years of experience, my goal is to become a successful Full Stack Developer, building efficient, scalable software solutions that solve real-world problems. I am skilled in object-oriented programming (Java, C#, Python), database management, web development, and cloud technologies. Recognized for my contributions in system optimization, I strive to create impactful applications, leveraging my expertise to contribute to advanced projects and push the limits of innovation.</p>
-							</div>
-							
-							<title>Skills and Profile</title>
-							<style>
-								/*!
-								 * Bootstrap Reboot v4.1.0 (https://getbootstrap.com/)
-								 * Copyright 2011-2018 The Bootstrap Authors
-								 * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
-								 */
-								* {
-									-webkit-box-sizing: border-box;
-									box-sizing: border-box; 
-								}
-						
-								html {
-									font-family: sans-serif;
-									line-height: 1.15;
-									-webkit-text-size-adjust: 100%;
-								}
-						
-								body {
-									margin: 0;
-									font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-									font-size: 1rem;
-									font-weight: 400;
-									line-height: 1.5;
-									color: #e0e0e0;
-									background-color: #121212; /* Dark background for better contrast */
-									padding: 20px; /* Add some padding to avoid elements touching the edges */
-								}
-						
-								.content-wrapper {
-									max-width: 800px;
-									margin: 0 auto;
-									padding: 20px;
-									background-color: #1e1e1e; /* Adding a dark container */
-									border-radius: 10px;
-									box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
-								}
-						
-								.profile-info {
-									margin-bottom: 20px;
-								}
-						
-								.profile-info p {
-									font-size: 1em;
-									margin: 0.5rem 0;
-								}
-						
-								.profile-info span {
-									font-weight: bold;
-									color: #ffffff;
-								}
-						
-								.skills-section {
-									margin-top: 20px;
-								}
-						
-								.skill-category {
-									margin-bottom: 20px;
-								}
-						
-								.skill-category h5 {
-									font-size: 1em; /* Reduced the size of h5 elements */
-									color: #bdbdbd;
-									font-weight: bold;
-									display: flex;
-									align-items: center;
-									margin-bottom: 10px;
-								}
-						
-								.skill-category h3 {
-									font-size: 1.1em; /* Slightly larger size for h3 elements */
-									color: #bdbdbd;
-									font-weight: bold;
-									display: flex;
-									align-items: center;
-									margin-bottom: 10px;
-								}
-						
-								.icon {
-									margin-right: 8px;
-								}
-						
-								.skill-category p {
-									font-size: 0.9em;
-									margin: 0;
-									color: #e0e0e0;
-									line-height: 1.6;
-								}
-							</style>
-						</head>
-						<body>
-						
-						<div class="content-wrapper">
-							<div class="profile-info">
-								<p><span>Profile:</span> Full Stack Developer</p>
-								<p><span>Education:</span> Master's Of Science</p>
-								<p><span>Domain:</span> Computer Science</p>
-							</div>
-						
-							<div class="skills-section">
-								<div class="skill-category">
-									<h5><span class="icon">💻</span> Programming Languages</h5>
-									<p>Java, C#, Python, JavaScript, TypeScript, PHP, HTML, CSS</p>
-								</div>
-						
-								<div class="skill-category">
-									<h5><span class="icon">💻</span> Frameworks</h5>
-									<p>Spring MVC, Spring Boot, Spring Boot REST API, Hibernate/JPA, Azure DevOps, JUnit, Flask, ASP.NET Core Web API, Bootstrap</p>
-								</div>
-						
-								<div class="skill-category">
-									<h5><span class="icon">💻</span> Cloud Platforms</h5>
-									<p>Microsoft Azure, AWS (Amazon Web Services)</p>
-								</div>
-						
-								<div class="skill-category">
-									<h3><span class="icon">💾</span> Databases</h3>
-									<p>SQL Server, Azure SQL Database, NoSQL databases, MongoDB</p>
-								</div>
-						
-								<div class="skill-category">
-									<h3><span class="icon">📂</span> Version Control</h3>
-									<p>Git, GitHub</p>
-								</div>
-						
-								<div class="skill-category">
-									<h3><span class="icon">📚</span> Libraries</h3>
-									<p>React JS, Angular, D3 JS, Dropzone JS</p>
-								</div>
-							</div>
-						</div>
-								
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-    </section>
-
-	<div class="row">
-		<h1 class="big-4">Experience</h1>
-		<div class="underline"></div>
-	</div>
-	<br>
-	
-	<div class="row">
-		<div class="col-md-6"></div>
-	
-		<title>Work Experience Timeline</title>
-		<style>
-			body {
-				background-color: #1a1a1a;
-				font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-				color: #e0e0e0;
-				padding: 20px; /* Reduced padding for better fit */
-			}
-	
-			.timeline {
-				position: relative;
-				max-width: 1000px; /* Increased max-width */
-				margin: 0 auto;
-				padding: 20px 0;
-			}
-	
-			.timeline::after {
-				content: '';
-				position: absolute;
-				width: 6px; /* Increased width of the line */
-				background-color: #f18f01;
-				top: 0;
-				bottom: 0;
-				left: 50%;
-				margin-left: -3px;
-			}
-	
-			.timeline-item {
-				position: relative;
-				width: 50%;
-				padding: 40px 50px; /* More padding for improved spacing */
-				box-sizing: border-box;
-			}
-	
-			.timeline-item::after {
-				content: '';
-				position: absolute;
-				width: 20px; /* Size of the timeline indicator dot */
-				height: 20px;
-				right: -10px;
-				background-color: #f18f01;
-				border: 4px solid #fff;
-				top: 30px;
-				border-radius: 50%;
-				z-index: 1;
-			}
-	
-			.left {
-				left: 0;
-			}
-	
-			.right {
-				left: 50%;
-			}
-	
-			.timeline-content {
-				padding: 25px;
-				background-color: #2e2e2e;
-				position: relative;
-				border-radius: 10px; /* Rounded corners */
-				box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
-				font-size: 1rem; /* Font size for better readability */
-			}
-	
-			.timeline-content h2.experience-title {
-				color: #f2f2f2;
-				font-size: 1.8rem; /* Increased the font size for emphasis */
-				margin-bottom: 15px;
-			}
-	
-			.timeline-content span.experience-subtitle {
-				display: block;
-				font-size: 1.1rem; /* Increased size for subtitle */
-				color: #c6a377;
-				margin-bottom: 5px;
-			}
-	
-			.timeline-content span.experience-dates {
-				font-size: 1rem; /* Adjusted size for better readability */
-				color: #f5cba7;
-				margin-bottom: 15px;
-			}
-	
-			.timeline-content p {
-				font-size: 1rem;
-				line-height: 1.7; /* Improved readability */
-				color: #e0e0e0;
-			}
-	
-			.timeline-content ul {
-				list-style-type: disc;
-				padding-left: 25px;
-				margin-top: 15px;
-			}
-	
-			.timeline-content ul li {
-				margin-bottom: 10px;
-				font-size: 1rem;
-				line-height: 1.7; /* Improved line spacing */
-			}
-		</style>
-	
-		<div class="timeline">
-			<div class="timeline-item left">
-				<div class="timeline-content">
-					<h2 class="experience-title">Research Assistant</h2>
-					<span class="experience-subtitle">Oregon State University</span>
-					<span class="experience-dates">Jun 2024 - Present</span>
-					<p>Developed the front-end for an image processing web app using Flask and JavaScript, enhancing image upload efficiency by 30% with Dropzone.js for drag-and-drop functionality.</p>
-					<ul>
-						<li>Implemented image processing algorithms with Python's Pillow (PIL) for saturation adjustments and tone classification.</li>
-						<li>Deployed on Heroku and Amazon S3 for scalability and secure file handling.</li>
-					</ul>
-				</div>
-			</div>
-	
-			<div class="timeline-item right">
-				<div class="timeline-content">
-					<h2 class="experience-title">Associate Software Engineer</h2>
-					<span class="experience-subtitle">Accenture, India</span>
-					<span class="experience-dates">Oct 2021 – Aug 2023</span>
-					<p>Developed and maintained software solutions for clients in the financial and healthcare domains.</p>
-					<ul>
-						<li>Built a Real-Time Investment Monitoring web app integrating J.P. Morgan's API using Java, Spring Boot, and React JS.</li>
-						<li>Designed an Email Notification System with Spring Scheduler and SendGrid for automated stock alerts.</li>
-						<li>Implemented OAuth2 authentication and role-based access control with secure data encryption protocols.</li>
-						<li>Established a CI/CD pipeline using Jenkins and Azure DevOps for automated builds, testing, and deployment.</li>
-						<li>Boosted system performance with Java multithreading, batching, and SQL Server optimizations for healthcare solutions.</li>
-						<li>Deployed applications on Azure using Azure Blob Storage, SQL Server, and auto-scaling features for high availability.</li>
-					</ul>
-				</div>
-			</div>
-	
-			<div class="timeline-item left">
-				<div class="timeline-content">
-					<h2 class="experience-title">Java Developer Intern</h2>
-					<span class="experience-subtitle">Infidata Technologies, India</span>
-					<span class="experience-dates">Mar 2021 – Apr 2021</span>
-					<p>Worked on a school health project to develop a responsive web application, enhancing operational efficiency and automating processes.</p>
-					<ul>
-						<li>Automated health screenings using Angular and Spring Boot, integrating APIs to enhance scheduling functionality.</li>
-						<li>Integrated REST APIs with HttpClient to manage holidays and non-working days in the micro-planning calendar.</li>
-						<li>Deployed the application on Azure App Services with auto-scaling and monitoring for reliable uptime.</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</div>
-	
-
-		<br>
-		<br>
-
-		<div class="row">
-			<h1 class="big-4">Education</h1>
-			<div class="underline"></div>
-		</div>
-		<br>
-		
-			<div class="row">
-    			<div class="col-md-6">
-    				<div class="resume-wrap ftco-animate">
-    					<span class="date">May 2025</span>
-    					<h2>Master of Science in Computer Science </h2>
-    					<span class="position">Oregon State University - OR, USA</span>
-    				</div>
-    			</div>
-
-    			<div class="col-md-6">
-    				<div class="resume-wrap ftco-animate">
-    					<span class="date">Aug 2021</span>
-    					<h2>Bachelor of Engineering in Computer Science</h2>
-    					<span class="position">Visvesvaraya Technological University - India </span>
-    				</div>
-				</div>
-    		</div>
-
-    		<div class="row justify-content-center mt-5">
-    			<div class="col-md-6 text-center ftco-animate">
-    				<p><a href="https://drive.google.com/file/d/1P7pLPI5MzzGys1csdDADlQWz0BgUR_dy/view?usp=sharing" class="btn btn-primary py-4 px-5">Download CV</a></p>
-    			</div>
-    		</div>
-    	</div>
-    </section>
-
-   
-
-    <section class="ftco-section" id="project-section">
-		<div class="container">
-		  <div class="row justify-content-center mb-5 pb-5">
-			<div class="col-md-7 heading-section text-center ftco-animate">
-			  <h1 class="big big-2">Projects</h1>
-			  <h2 class="mb-4">Projects</h2>
-			  <p>Below are the sample Full Stack projects developed using a variety of technologies like .NET Web API, Java, Python, React, and SQL.</p>
-			</div>
-		  </div>
-		  <div class="row d-flex">
-			<div class="col-md-4 d-flex ftco-animate">
-			  <div class="blog-entry justify-content-end">
-				<a class="block-20 zoom-effect" style="background-image: url('images/Covid.jpg');"></a>
-				<div class="text mt-3 float-right d-block">
-				  <h3 class="heading">Covid-19 Information Tracker</h3>
-				  <p>Built a COVID-19 Information Portal (using .NET Web API, React, SQL), integrating real-time chat (Node.js) and implementing OAuth 2.0 for secure system access.</p>
-				</div>
-			  </div>
-			</div>
-			<div class="col-md-4 d-flex ftco-animate">
-			  <div class="blog-entry justify-content-end">
-				<a class="block-20 zoom-effect" style="background-image: url('images/Attendance.jpg');"></a>
-				<div class="text mt-3 float-right d-block">
-				  <h3 class="heading">Attendance Management System</h3>
-				  <p>Developed a real-time attendance tracking system (Python, Flask) with interactive stats using D3.js, automatically calculating fines based on attendance records.</p>
-				</div>
-			  </div>
-			</div>
-			<div class="col-md-4 d-flex ftco-animate">
-				<div class="blog-entry">
-				  <a class="block-20 zoom-effect" style="background-image: url('images/E_Com.webp');"></a>
-				  <div class="text mt-3 float-right d-block">
-					<h3 class="heading">E-commerce Application</h3>
-					<p>Developed an e-commerce application (Java, Spring Boot, SQL) with secure role-based authentication, enabling CRUD operations and integrating Stripe API for secure online payments.</p>
-				  </div>
-				</div>
-			  </div>
-			  
-			  <section class="ftco-section contact-section ftco-no-pb" id="contact-section">
-				<div class="container">
-				  <div class="row justify-content-center mb-5 pb-3">
-					<div class="col-md-7 heading-section text-center ftco-animate">
-					  <h1 class="big big-2">Contact</h1>
-					  <h2 class="mb-4">Contact Me</h2>
-					  <p>Below are the details to reach out to me!</p>
-					</div>
-				  </div>
-
-        <div class="row d-flex contact-info mb-5">
-          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
-          	<div class="align-self-stretch box p-4 text-center">
-          		<div class="icon d-flex align-items-center justify-content-center">
-          			<span class="icon-map-signs"></span>
-          		</div>
-          		<h3 class="mb-4">Address</h3>
-	            <p>Texas, USA</p>
-	          </div>
-          </div>
-          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
-          	<div class="align-self-stretch box p-4 text-center">
-          		<div class="icon d-flex align-items-center justify-content-center">
-          			<span class="icon-phone2"></span>
-          		</div>
-          		<h3 class="mb-4">Contact Number</h3>
-	            <p><a href="tel://0101010101">+ 15412862238</a></p>
-	          </div>
-          </div>
-          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
-          	<div class="align-self-stretch box p-4 text-center">
-          		<div class="icon d-flex align-items-center justify-content-center">
-          			<span class="icon-paper-plane"></span>
-          		</div>
-          		<h3 class="mb-4">Email Address</h3>
-	            <p><a href="mailto:varshacm21@gmail.com">varshacm21@gmail.com</a></p>
-	          </div>
-          </div>
-          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
-          	<div class="align-self-stretch box p-4 text-center">
-          		<div class="icon d-flex align-items-center justify-content-center">
-          			<span class="icon-globe"></span>
-          		</div>
-          		<h3 class="mb-4">Download Resume</h3>
-	            <p><a href="https://drive.google.com/file/d/1P7pLPI5MzzGys1csdDADlQWz0BgUR_dy/view?usp=sharing">resumelink</a></p>
-	          </div>
-          </div>
-
-		  <div class="container">
-			<br>
-			<br>
-			<div class="row justify-content-center">
-				<div class="col-md-7 ftco-animate text-center">
-					<h2>Have a<span> Question?  </span> <a href="https://forms.gle/zNAF1CJT2VacZ2b89" class="btn btn-primary py-3 px-5">Click Here</a> </h2>
-				</div>
-			</div>
-				<br>
-					<ul class="ftco-footer-social list-unstyled d-flex justify-content-center align-items-center mb-0">
-					  <li class="ftco-animate normal-txt">Find me on  </li>
-					  <li class="ftco-animate"><a href="https://www.linkedin.com/in/varshamulangi/"><span class="icon-linkedin"></span></a></li>  
-					</ul>
-				<br>
-		   </div>
-   </div>
- </section>
- <!DOCTYPE html>
-<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <title>Centered Footer Example</title>
+    <title>Varsha's Portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
-        /* General Body Styling */
-        body {
-            background-color: #1a1a1a; /* Dark background for contrast */
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            color: #e0e0e0;
+        * {
+            box-sizing: border-box;
             margin: 0;
             padding: 0;
+            font-family: 'Poppins', sans-serif;
+            scroll-behavior: smooth;
         }
-
-        /* Footer Styling */
-        .ftco-footer {
+        body {
+            background-color: #121212;
+            color: #ffffff;
+            line-height: 1.6;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #4a3a2b;
+            padding: 10px 20px;
+            text-align: center;
+            animation: fadeInDown 1.5s ease-out;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s, transform 0.3s;
+        }
+        nav a:hover {
+            color: #ffbd39;
+            transform: scale(1.1);
+        }
+        h1, h2 {
+            color: #ffbd39;
+            margin-bottom: 20px;
+            animation: fadeIn 1.5s ease-out;
+        }
+        .about {
+            margin-bottom: 50px;
+            animation: slideInLeft 1.5s ease-out;
+        }
+        .about img {
+            width: 150px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+            transition: transform 0.5s;
+        }
+        .about img:hover {
+            transform: scale(1.1) rotate(10deg);
+        }
+        .about p {
+            max-width: 800px;
+            margin: 0 auto 20px;
+            animation: fadeIn 2s ease-out;
+        }
+        .skills-section {
+            margin-top: 50px;
+            animation: slideInRight 1.5s ease-out;
+        }
+        .skills-heading {
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            color: #ffbd39;
+            animation: bounceIn 1.5s ease-in-out;
+        }
+        .skills-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+        }
+        .skill-badge {
+            background-color: #1f1f1f;
+            color: #ffffff;
+            padding: 10px 20px;
+            border-radius: 30px;
+            font-size: 0.9rem;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            transition: background-color 0.3s, transform 0.5s;
             display: flex;
             align-items: center;
+            gap: 10px;
+        }
+        .skill-badge i {
+            color: #ffbd39;
+        }
+        .skill-badge:hover {
+            background-color: #ffbd39;
+            color: #000000;
+            transform: translateY(-10px) scale(1.1);
+        }
+        .skills-divider {
+            margin: 30px 0;
+            font-size: 1rem;
+            color: #808080;
+        }
+        .experience-section {
+            margin-bottom: 50px;
+            animation: slideInUp 1.5s ease-out;
+        }
+        .timeline {
+            display: flex;
             justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .timeline-item {
+            background-color: #d6c5c0;
+            border-radius: 20px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            width: 280px;
             text-align: center;
-            padding: 20px 0; /* Adjust padding for the top and bottom */
-            background-color: #1a1a1a; /* Dark background for footer */
-            border-top: 2px solid #f18f01; /* Optional: Adds a top border for footer differentiation */
+            transition: transform 0.5s;
         }
-
-        .footer-text {
+        .timeline-item:hover {
+            transform: translateY(-10px) scale(1.05);
+        }
+        .projects-section {
+            margin-top: 50px;
+            animation: fadeIn 1.5s ease-in;
+        }
+        .project-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .project-card {
+            background-color: #d6c5c0;
+            border-radius: 20px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            width: 300px;
+            text-align: center;
+            transition: transform 0.5s;
+        }
+        .project-card:hover {
+            transform: translateY(-10px) scale(1.05);
+        }
+        .project-image {
+            background-size: cover;
+            background-position: center;
+            border-radius: 15px;
+            height: 150px;
+            margin-bottom: 15px;
+            transition: transform 0.5s;
+        }
+        .project-image:hover {
+            transform: scale(1.1);
+        }
+        .footer {
+            background-color: #4a3a2b;
+            color: white;
+            padding: 20px;
+            animation: slideInUp 1.5s ease-out;
+        }
+        .footer p {
             margin: 0;
-            font-size: 1.2em; /* Increase font size for readability */
-            color: #ffffff;
         }
 
-        .footer-text a {
-            color: #f18f01; /* Vibrant color for link to make it visible */
-            text-decoration: underline; /* Underline the link for emphasis */
-            transition: color 0.3s ease;
+        /* Keyframe Animations */
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
         }
-
-        .footer-text a:hover {
-            color: #ffa500; /* Changes link color on hover for interaction effect */
+        @keyframes fadeInDown {
+            from { opacity: 0; transform: translateY(-30px); }
+            to { opacity: 1; transform: translateY(0); }
         }
-
-        /* Responsive Media Query */
-        @media (max-width: 768px) {
-            .ftco-footer {
-                flex-direction: column; /* Stack content vertically for small screens */
-            }
+        @keyframes slideInLeft {
+            from { opacity: 0; transform: translateX(-50px); }
+            to { opacity: 1; transform: translateX(0); }
+        }
+        @keyframes slideInRight {
+            from { opacity: 0; transform: translateX(50px); }
+            to { opacity: 1; transform: translateX(0); }
+        }
+        @keyframes slideInUp {
+            from { opacity: 0; transform: translateY(50px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        @keyframes bounceIn {
+            0%, 20%, 40%, 60%, 80%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
         }
     </style>
 </head>
 <body>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
 
-    <!-- Footer Section -->
-    <footer class="ftco-footer ftco-section">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-md-12 text-center">
-                    <p class="footer-text">
-                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                        Copyright &copy; <script>document.write(new Date().getFullYear());</script> 
-                        All rights reserved | This template is made with 
-                        <i class="icon-heart color-danger" aria-hidden="true"></i> 
-                        by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                    </p>
-                </div>
+    <section id="about" class="about">
+        <img src="images/Varsha_1.png" alt="Varsha">
+        <h1>About Me</h1>
+        <p><i>"We're here to put a dent in the Universe!!" - Steve Jobs</i></p>
+        <p>With over 2 years of experience, my goal is to become a successful Full Stack Developer, building efficient, scalable software solutions that solve real-world problems. I am skilled in object-oriented programming (Java, C#, Python), database management, web development, and cloud technologies.</p>
+    </section>
+
+    <section id="skills" class="skills-section">
+        <h2 class="skills-heading">Programming Languages</h2>
+        <div class="skills-container">
+            <div class="skill-badge"><i class="fab fa-java"></i> Java</div>
+            <div class="skill-badge"><i class="fab fa-python"></i> Python</div>
+            <div class="skill-badge"><i class="fab fa-js"></i> JavaScript</div>
+            <div class="skill-badge"><i class="fab fa-html5"></i> HTML</div>
+            <div class="skill-badge"><i class="fab fa-css3-alt"></i> CSS</div>
+            <div class="skill-badge"><i class="fas fa-code"></i> C#</div>
+            <div class="skill-badge"><i class="fas fa-code"></i> C</div>
+            <div class="skill-badge"><i class="fas fa-code"></i> C++</div>
+            <div class="skill-badge"><i class="fas fa-terminal"></i> Bash</div>
+            <div class="skill-badge"><i class="fab fa-js-square"></i> Typescript</div>
+            <div class="skill-badge"><i class="fas fa-feather-alt"></i> Go</div>
+            <div class="skill-badge"><i class="fas fa-feather"></i> Rust</div>
+        </div>
+
+        <div class="skills-divider">---------------- FRAMEWORKS ----------------</div>
+
+        <div class="skills-container">
+            <div class="skill-badge"><i class="fab fa-react"></i> React</div>
+            <div class="skill-badge"><i class="fab fa-angular"></i> Angular</div>
+            <div class="skill-badge"><i class="fab fa-node-js"></i> Node.js</div>
+            <div class="skill-badge"><i class="fab fa-bootstrap"></i> Bootstrap</div>
+            <div class="skill-badge"><i class="fab fa-js"></i> Redux</div>
+            <div class="skill-badge"><i class="fas fa-server"></i> Express</div>
+        </div>
+
+        <div class="skills-divider">---------------- DATABASES ----------------</div>
+
+        <div class="skills-container">
+            <div class="skill-badge"><i class="fas fa-database"></i> SQL Server</div>
+            <div class="skill-badge"><i class="fas fa-database"></i> Azure SQL</div>
+            <div class="skill-badge"><i class="fas fa-database"></i> MongoDB</div>
+            <div class="skill-badge"><i class="fas fa-database"></i> MySQL</div>
+            <div class="skill-badge"><i class="fas fa-database"></i> Redis</div>
+            <div class="skill-badge"><i class="fas fa-database"></i> PostgreSQL</div>
+        </div>
+
+        <div class="skills-divider">---------------- CLOUD TOOLS ----------------</div>
+
+        <div class="skills-container">
+            <div class="skill-badge"><i class="fab fa-aws"></i> AWS</div>
+            <div class="skill-badge"><i class="fab fa-microsoft"></i> Azure</div>
+            <div class="skill-badge"><i class="fas fa-cloud"></i> EC2</div>
+            <div class="skill-badge"><i class="fas fa-cloud"></i> S3</div>
+            <div class="skill-badge"><i class="fas fa-cloud"></i> Redshift</div>
+            <div class="skill-badge"><i class="fas fa-cloud"></i> Kinesis</div>
+        </div>
+
+        <div class="skills-divider">---------------- ADDITIONAL SKILLS ----------------</div>
+
+        <div class="skills-container">
+            <div class="skill-badge"><i class="fab fa-docker"></i> Docker</div>
+            <div class="skill-badge"><i class="fab fa-kubernetes"></i> Kubernetes</div>
+            <div class="skill-badge"><i class="fas fa-code-branch"></i> Git</div>
+            <div class="skill-badge"><i class="fas fa-project-diagram"></i> Jenkins</div>
+            <div class="skill-badge"><i class="fab fa-android"></i> Android Dev</div>
+        </div>
+    </section>
+	<br>
+
+    <section id="experience" class="experience-section">
+        <h2>Experience</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <h3>Research Assistant</h3>
+                <h4>Oregon State University</h4>
+                <p>Developed SnapStream, an image processing web app using Python and Flask, boosting image upload efficiency by 30% and reducing processing time by 25%. Utilized Azure Functions to streamline cloud-based image processing.</p>
+            </div>
+            <div class="timeline-item">
+                <h3>Associate Software Engineer</h3>
+                <h4>Accenture</h4>
+                <p>Built a Real-Time Investment Monitoring web app, enhancing user engagement with real-time data and a dynamic dashboard. Created a plugin for API integration and optimized performance with data indexing and multithreading. Led a legacy system migration, reducing costs and improving auditability.</p>
+            </div>
+            <div class="timeline-item">
+                <h3>Java Developer Intern</h3>
+                <h4>Infidata Technologies</h4>
+                <p>Enhanced Campus Care app with efficient search and filtering, reducing API response times by 20%. Improved code quality through collaboration and aligned architecture with Azure standards for scalability.</p>
             </div>
         </div>
+    </section>
+
+    <section id="projects" class="projects-section">
+        <h2>Projects</h2>
+        <div class="project-container">
+            <div class="project-card">
+                <div class="project-image" style="background-image: url('images/Covid.jpg');"></div>
+                <h3>Covid-19 Information Tracker</h3>
+                <p>Built a COVID-19 Information Portal (using .NET Web API, React, SQL), integrating real-time chat (Node.js) and implementing OAuth 2.0 for secure system access.</p>
+            </div>
+            <div class="project-card">
+                <div class="project-image" style="background-image: url('images/Attendance.jpg');"></div>
+                <h3>Attendance Management System</h3>
+                <p>Developed a real-time attendance tracking system (Python, Flask) with interactive stats using D3.js, automatically calculating fines based on attendance records.</p>
+            </div>
+            <div class="project-card">
+                <div class="project-image" style="background-image: url('images/E_Com.webp');"></div>
+                <h3>E-commerce Application</h3>
+                <p>Developed an e-commerce application (Java, Spring Boot, SQL) with secure role-based authentication, enabling CRUD operations and integrating Stripe API for secure online payments.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer" id="contact">
+        <p>Contact: varshacm21@gmail.com | +1 541-286-2238</p>
+        <p>Find me on <a href="https://www.linkedin.com/in/varshamulangi/" style="color: #ffbd39;">LinkedIn</a></p>
     </footer>
-
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
-</html>
-
-
-
-
-  <!-- loader -->
-  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
-
-
-  <script src="js/jquery.min.js"></script>
-  <script src="js/jquery-migrate-3.0.1.min.js"></script>
-  <script src="js/popper.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/jquery.easing.1.3.js"></script>
-  <script src="js/jquery.waypoints.min.js"></script>
-  <script src="js/jquery.stellar.min.js"></script>
-  <script src="js/owl.carousel.min.js"></script>
-  <script src="js/jquery.magnific-popup.min.js"></script>
-  <script src="js/aos.js"></script>
-  <script src="js/jquery.animateNumber.min.js"></script>
-  <script src="js/scrollax.min.js"></script>
-  
-  <script src="js/main.js"></script>
-    
-  </body>
 </html>
